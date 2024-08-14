@@ -16,8 +16,8 @@ Kelompokkan nama-nama di bawah ini ke dalam Array.
 Kids : "Mike", "Dustin", "Will", "Lucas", "Max", "Eleven" 
 Adults: "Hopper", "Nancy", "Joyce", "Jonathan", "Murray" 
 */ 
-$kids= array("mike", "Dustin", "Will", "Lucas", "Max", "Eleven");// Lengkapi di sini 
-$adults= array("Hopper", "Nancy", "Joyce", "Jonathan", "Murray");
+$kids= array("mike", "Dustin", "Will", "Lucas", "Max", "Eleven"); // Lengkapi di sini 
+$adults= array("Hopper", "Nancy", "Joyce","Jonathan", "Murray"); 
 echo "<h3> Soal 2</h3>"; 
 /* 
 SOAL NO 2 
@@ -27,16 +27,16 @@ echo "<br>";
 echo "Total Kids: " . count($kids); // Berapa panjang array kids 
 echo "<br>"; 
 echo "<ol>"; 
-foreach ($kids as $kid) {
-echo "<li> $kid[0] </li>"; 
+foreach ($kids as $kid){
+    echo "<li> $kids[0] </li>"; 
 }
 // Lanjutkan 
 echo "</ol>"; 
 echo "Total Adults: " .count($adults); // Berapa panjang array adults 
 echo "<br>"; 
 echo "<ol>"; 
-foreach ($adults as $adult){
-echo "<li> $adult[0] </li>"; 
+foreach($adults as $adult){
+    echo "<li> $adult[0] </li>"; 
 }
 // Lanjutkan 
 echo "</ol>"; 
@@ -59,7 +59,6 @@ Name: "Eleven"
 Age: 12, 
 Aliases: "El" 
 Status: "Alive" 
-
 Output: 
 Array 
 ( 
@@ -120,7 +119,7 @@ $data = array(
 );
 echo "<pre>";
 print_r($data);
-echo "</pre>";
+echo "</prev>";
 ?> 
-</body> 
+</body> 
 </html>
